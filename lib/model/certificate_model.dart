@@ -92,13 +92,4 @@ List<CertificateModel> certificateList = [
   //   skills: 'Cyber Security . Networking ',
   //   credential:  'https://codered.eccouncil.org/certificate/43a2d2a7-40ed-4230-9e65-a9aa0935e651?logged=false',
   // ),
-
-
-
-
-
-
-
-
-
 ];

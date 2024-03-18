@@ -25,13 +25,13 @@ class IntroBody extends StatelessWidget {
             children: [
               if (!Responsive.isDesktop(context))
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    SizedBox(
-                      width: size.width * 0.23,
-                    ),
+
                     const AnimatedImageContainer(
                       width: 150,
-                      height: 200,
+                      height: 150,
                     ),
                   ],
                 ),

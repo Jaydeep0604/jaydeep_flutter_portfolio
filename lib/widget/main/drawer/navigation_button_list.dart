@@ -16,26 +16,33 @@ class NavigationButtonList extends StatelessWidget {
           scale: value,
           child: Row(
             children: [
+              // NavigationTextButton(
+              //     onTap: () {
+              //       controller.animateToPage(0,
+              //           duration: const Duration(milliseconds: 500),
+              //           curve: Curves.easeIn);
+              //     },
+              //     text: 'Home'),
+              // if (!Responsive.isLargeMobile(context))
+                NavigationTextButton(
+                    onTap: () {
+                      controller.animateToPage(0,
+                          duration: const Duration(milliseconds: 300),
+                          curve: Curves.easeIn);
+                    },
+                    text: 'About us'),
               NavigationTextButton(
-                  onTap: () {
-                    controller.animateToPage(0,
-                        duration: const Duration(milliseconds: 500),
-                        curve: Curves.easeIn);
-                  },
-                  text: 'Home'),
-              if (!Responsive.isLargeMobile(context))
-                NavigationTextButton(onTap: () {}, text: 'About us'),
-              NavigationTextButton(
-                  onTap: () {
-                    controller.animateToPage(1,
-                        duration: const Duration(milliseconds: 500),
-                        curve: Curves.easeIn);
-                  },
-                  text: 'Projects'),
+                onTap: () {
+                  controller.animateToPage(1,
+                      duration: const Duration(milliseconds: 300),
+                      curve: Curves.easeIn);
+                },
+                text: 'Projects',
+              ),
               NavigationTextButton(
                   onTap: () {
                     controller.animateToPage(2,
-                        duration: const Duration(milliseconds: 500),
+                        duration: const Duration(milliseconds: 300),
                         curve: Curves.easeIn);
                   },
                   text: 'Certifications'),

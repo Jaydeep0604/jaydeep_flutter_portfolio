@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.example.jaydeep_flutter_portfolio"
-    compileSdkVersion flutter.compileSdkVersion
+    compileSdkVersion 34R
     ndkVersion flutter.ndkVersion
 
     compileOptions {
